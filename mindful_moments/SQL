@@ -1,0 +1,32 @@
+USE Mindful_Moments
+
+CREATE TABLE Mood_Logs(
+ID INT
+Mood VARCHAR(20)
+Focus_level VARCHAR(20)
+Notes VARCHAR(100)
+Date INT
+)
+
+CREATE TABLE Mindful_Moments_Suggestions(
+ID INT
+Calming_activity VARCHAR(50)
+Message VARCHAR(100)
+)
+
+INSERT INTO(Mood_Logs(ID, Mood, Focus_level, Notes)
+VALUES ("1", "2", "3", "4", "5")
+("Tired", "Anxious", "Calm", "Happy", "Sad")
+("Low", "Medium", "High", "High", "Medium")
+("Couldn't concentrate", "Felt nervous after presentation", "Yoga helped", "To-do list done!", "Unproductive and Unworthy",
+("20-06-2025", "21-06-2025", "22-06-2025", "23-06-2025", "24-06-2025")
+)
+
+INSERT INTO(Mindful_Moments_Suggestions(PK, Calming_activity, Message)
+VALUES ("1", "2", "3", "4", "5")
+("Breathwork", "Words_of_Affirmation", "Movement", "Grounding", "Mantra")
+("Take 5 Deep Breaths Flowing with every inhale and healing with every exhale",
+"You dont need to be productive to be worth",
+"3 Poses First one crescent Lunge, second one warrior 2, third one side bend on both sides",
+"I am Loved, I am calm, I can handle this")
+
